@@ -20,7 +20,6 @@ main.o: main.s
 
 foo.o: foo.c
 	gcc -c foo.c
-	
 
 all: foo.o main.o
 	gcc -o main foo.o main.o
