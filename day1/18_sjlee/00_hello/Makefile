@@ -26,7 +26,6 @@ all: main.o foo.o
 	gcc -o main main.o foo.o
 	./main
  
-
 clean: 
 ifeq ($(OS),Windows_NT)
 	del *.o *.i *.s
