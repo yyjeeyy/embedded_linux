@@ -8,3 +8,4 @@ int main() {
     printf("Hello, world! %d\n", increment(i));
     return 0;
 }
+
